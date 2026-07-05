@@ -1,0 +1,122 @@
+# 🎵 AI Song Recommendation System
+
+## 📌 Project Description
+
+AI Song Recommendation System is a Python-based application that recommends songs according to the user's preferences. The user selects a genre, mood, and language, and the system displays matching songs from the database.
+
+This project was developed as part of the DecodeLabs AI Internship.
+
+---
+
+## 🚀 Features
+
+- 🎵 Recommend songs based on:
+  - Genre
+  - Mood
+  - Language
+- 📋 View all songs
+- 🔍 Search songs by name
+- ⭐ View top-rated songs
+- 🎤 Filter songs by artist
+- 🎲 Surprise Me (Random Song Recommendation)
+- ❌ Invalid input handling
+- 🔄 Menu-driven interface
+
+---
+
+## 🛠 Technologies Used
+
+- Python 3
+- Lists
+- Dictionaries
+- Loops
+- Conditional Statements
+- Functions
+- Random Module
+
+---
+
+## 📂 Project Structure
+
+```
+Songs-Recommendation-System/
+│
+├── main.py
+├── README.md
+├── requirements.txt
+└── screenshots/
+```
+
+---
+
+## ▶️ How to Run
+
+1. Install Python 3.
+2. Download or clone this repository.
+3. Open the project folder in VS Code.
+4. Run the following command:
+
+```bash
+python main.py
+```
+
+---
+
+## 📷 Sample Output
+
+```
+==================================================
+AI SONG RECOMMENDATION SYSTEM
+==================================================
+
+1. Recommend Songs
+2. View All Songs
+3. Search Song
+4. Top Rated Songs
+5. Filter by Artist
+6. Surprise Me
+7. Exit
+
+Enter choice: 1
+
+Genre: Pop
+Mood: Happy
+Language: English
+
+Recommendations:
+----------------------------------------
+Shape of You - Ed Sheeran (5/5)
+Levitating - Dua Lipa (4/5)
+```
+
+---
+
+## 📚 Concepts Used
+
+- User Input
+- Pattern Matching
+- Recommendation Logic
+- Lists and Dictionaries
+- Looping
+- Conditional Statements
+
+---
+
+## 👩‍💻 Developed By
+
+**Ayesha Yaqoob**
+
+BS Computer Science
+
+DecodeLabs AI Internship Project
+
+---
+
+## ⭐ Future Improvements
+
+- Add 100+ songs
+- Add user login system
+- Save favorite songs
+- Music recommendation score
+- GUI using Tkinter
+- Database integration using SQLite
